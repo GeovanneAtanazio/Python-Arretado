@@ -1,12 +1,12 @@
 {
   "gitbook": "3.2.3",
   "root": "./pages",
-  "title": "Ferramenta de Aprendizado Institucional",
+  "title": "Python Arretado",
   "cover": "public/cover.jpg",
-  "description": "Projeto base da ferramenta de aprendizado institucional",
+  "description": "Curso Python Arretado",
   "language": "pt",
   "variables": {
-    "theme": "ferramenta de aprendizado institucional"
+    "theme": "Python Arretado"
   },
   "structure": {
     "readme": "apresentacao.md",
