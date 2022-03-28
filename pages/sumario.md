@@ -1,6 +1,6 @@
 # Sumário
 
-* [Ferramenta de aprendizado institucional](apresentacao.md)
+* [Curso Python Arretado](apresentacao.md)
 * [Introdução](introducao.md) 
 * [Glossário](glossario.md)
 * [Bibliografia](bibliografia.md)
