@@ -14,7 +14,7 @@ A seguir será explicado, de forma breve, como fazer a montagem de ambiente Pyth
 No GNU/Linux e no macOS, o Python já vem instalado. Porém, em alguns caso, a versão instalada é o Python2 que vem sendo substituída gradativamente pelo Python3. Para saber qual versão está instalada, basta acessar o terminal do SO e executar o comando:
 
 ```
-python --versio
+python --version
 ```
 
 Se o Python3 já estiver instalado, já é possível executá-lo. Entretanto, no cado de somente o Python2 estiver instalado, será preciso baixar o Python3 por meio do [site oficial](https://www.python.org/downloads/) e instalá-lo.
@@ -24,7 +24,7 @@ Se o Python3 já estiver instalado, já é possível executá-lo. Entretanto, no
 No SO Windows, para que um usuário possa utilizar o Python, é preciso efetuar sua instalação — ao contrário do GNU/Linux e do macOS, no Windows nenhuma versão do Python vem instalada. Entretanto, existe a possibilidade de alguém já ter feito a instalação do Python no computador. Para verificar basta acessar o terminal do Windows e executar o comando:
 
 ```
-python --versio
+python --version
 ```
 
 Se o Python3 já estiver instalado, é possível executá-lo. Caso contrário, será preciso baixar o Python3 por meio do [site oficial](https://www.python.org/downloads/) e instalá-lo — o mesmo vale se for identificado a instalação somente do Python2.

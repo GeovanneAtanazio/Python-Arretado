@@ -1,8 +1,8 @@
 # Sumário
 
 * [Curso Python Arretado](apresentacao.md)
-* [Introdução](introducao.md)   
-* [Montagem de ambiente](montagem_de_ambiente)
+* [Introdução](introducao.md)
+* [Montagem de ambiente](montagem_de_ambiente.md)
 * [Meu primeiro programa]()
 * [I/O]()
 * [Tipos e Variaveis]()
