@@ -6,7 +6,7 @@ A simplicidade do Python encoraja a programação modularizada. Dessa forma, có
 
 # História 
 
-Python foi criada em 1989 por Guido Van Rossum, no [Centro de Matemática Stichting (CWI)](https://www.cwi.nl/) na Holanda, com o objetivo de criar uma linguagem de programação que tivesse sintaxe semelhante a linguagem ABC e fosse capaz de interagir com o sistema operacional [AmoebaAmoeba](https://www.cs.vu.nl/pub/amoeba/). Nessa época, a aceitação de Python foi tão boa que em 1991 Guido lançou sua cria na Internet.
+Python foi criada em 1989 por Guido Van Rossum, no [Centro de Matemática Stichting (CWI)](https://www.cwi.nl/) na Holanda, com o objetivo de criar uma linguagem de programação que tivesse sintaxe semelhante a linguagem ABC e fosse capaz de interagir com o sistema operacional [Amoeba](https://www.cs.vu.nl/pub/amoeba/). Nessa época, a aceitação de Python foi tão boa que em 1991 Guido lançou sua cria na Internet.
 
 ## Origem do nome
 
@@ -14,4 +14,4 @@ Muitas pessoas costumam pensar que o nome Python tem origem em um tipo de cobra,
 
 ## Ruptura entre versões
 
-Em dezembro de 2008 foi lançado a versão 3.0 do Python, mais conhecida como Python3. Nela, houve uma quebra de compatibilidade com a família de versões anterior da linguagem, a 2.x. Essa ruptura foi feita para corrigir falhas que foram descobertas e reestruturar a linguagem.
+Em dezembro de 2008 foi lançado a versão 3.0 do Python, mais conhecida como Python3. Nela, houve uma quebra de compatibilidade com o Python2 — família de versões anterior da linguagem. Essa ruptura foi feita para corrigir falhas que foram descobertas e reestruturar a linguagem.
