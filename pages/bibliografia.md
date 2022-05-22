@@ -12,10 +12,33 @@ Esta seção apresenta o conjunto das fontes efetivamente utilizadas na constru�
 ## História 
 
 - História do Python. **Python Brasil**. Disponível em: <https://wiki.python.org.br/HistoriaDoPython>. Acesso em: 27 de mar. 2022.
-- Python: como surgiu a linguagem e o seu cenário atual. ** Vulpi**. Disponível em: <https://blog.vulpi.com.br/python-como-surgiu/#:~:text=Python%20foi%20criado%20no%20final,com%20o%20sistema%20operacional%20Amoeba.>. Acesso em: 27 de mar. 2022.
+- Python: como surgiu a linguagem e o seu cenário atual. **Vulpi**. Disponível em: <https://blog.vulpi.com.br/python-como-surgiu/#:~:text=Python%20foi%20criado%20no%20final,com%20o%20sistema%20operacional%20Amoeba.>. Acesso em: 27 de mar. 2022.
 - Python e orientação a objetos. **Caelum**. Disponível em: <https://www.caelum.com.br/apostila/apostila-python-orientacao-a-objetos.pdf>. Acesso em: 27 de mar. 2022.
 
 ### Origem do nome
 
 - Python: A origem do nome. **Alura**. Disponível em: <https://www.alura.com.br/artigos/python-origem-do-nome>. Acesso em: 27 de mar. 2022.
-- Python: como surgiu a linguagem e o seu cenário atual. ** Vulpi**. Disponível em: <https://blog.vulpi.com.br/python-como-surgiu/#:~:text=Python%20foi%20criado%20no%20final,com%20o%20sistema%20operacional%20Amoeba.>. Acesso em: 27 de mar. 2022.
+- Python: como surgiu a linguagem e o seu cenário atual. **Vulpi**. Disponível em: <https://blog.vulpi.com.br/python-como-surgiu/#:~:text=Python%20foi%20criado%20no%20final,com%20o%20sistema%20operacional%20Amoeba.>. Acesso em: 27 de mar. 2022.
+
+## Preparando ambiente Python
+
+- Curso Python #03 - Instalando o Python3 e o IDLE. **Curso em Vídeo**. Disponível em: <https://youtu.be/VuKvR1J2LQE>. Acesso em: 19 de mai. 2022.
+
+## Começando a criar algoritmos
+
+- Fundamentos de programação. **Programação Em C++: Algoritmos, Estruturas De Dados E Objetos**. Disponível em: <https://statics-submarino.b2w.io/sherlock/books/firstChapter/6718890.pdf>. Acesso em: 19 de mai. 2022.
+
+### Primeiros passos 
+
+- Gerenciamento de arquivos. **Manual GNU/Linux**. Disponível em: <https://geovanneatanazio.github.io/manual_linux/gerenciamento_de_arquivos.html>. Acesso em: 20 de mai. 2022.
+
+### Saída de dados
+
+- O shell e o terminal. **Manual GNU/Linux**. Disponível em: <https://geovanneatanazio.github.io/manual_linux/o_shell_e_o_terminal.html>. Acesso em: 20 de mai. 2022.
+- Entrada e Saída. **O tutorial de Python**. Disponível em: <https://docs.python.org/pt-br/3/tutorial/inputoutput.html>. Acesso em: 20 de mai. 2022.
+
+
+### Saída de dados
+
+- Entrada e Saída. **O tutorial de Python**. Disponível em: <https://docs.python.org/pt-br/3/tutorial/inputoutput.html>. Acesso em: 20 de mai. 2022.
+- O que são variáveis e para que elas servem na programação?. **People**. Disponível em: <https://www.people.com.br/noticias/informatica/o-que-sao-variaveis-e-para-que-elas-servem-na-programacao>. Acesso em: 20 de mai. 2022.
