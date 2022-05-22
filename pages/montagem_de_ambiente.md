@@ -31,7 +31,7 @@ Se o Python3 já estiver instalado, é possível executá-lo. Caso contrário, s
 
 ### Interface de desenvolvimento
 
-Com a instalação do Python finalizada, o próximo passo é instalar uma ferramenta que auxilie e facilite a escrita de código. Atualmente existem muitas ferramentas com esse propósito, aqui indicaremos o [Visual Studio Code](https://code.visualstudio.com/), que está disponível para GNU/Linux, Windows e macOS. Sinta-se a vontade para escolher a ferramenta que mais te agrade.  
+Com a instalação do Python finalizada, o próximo passo é instalar uma ferramenta que auxilie e facilite a escrita de código, popularmente conhecida como IDE *Integrated Development Environment* (*IDE*) ou, em portugês, Ambiente de Desenvolvimento Integrado. Atualmente existem muitas *IDEs* disponíveis, aqui indicaremos o [Visual Studio Code](https://code.visualstudio.com/), que está disponível para GNU/Linux, Windows e macOS. Sinta-se a vontade para escolher a ferramenta que mais te agrade.
 
 ## Python em ambientes *online*
 
