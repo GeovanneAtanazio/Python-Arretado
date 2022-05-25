@@ -6,7 +6,7 @@
 * [Primeiro algoritmo](primeiro_algoritmo.md)
 * [Tipos e Variaveis]()
 * [Estruturas de Dados Básicas]()
-* [Condicionais e Loops]()
+* [Condicionais e Loops](condicionais_e_loops.md)
 * [Funções]()
 * [Módulos]() 
 * [Glossário](glossario.md)
