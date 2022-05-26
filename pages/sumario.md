@@ -7,7 +7,7 @@
 * [Variaveis e seus tipos](tipos_de_variaveis.md)
 * [Estruturas de Dados Básicas]()
 * [Condicionais e Loops](condicionais_e_loops.md)
-* [Funções]()
+* [Funções](funcoes.md)
 * [Módulos]() 
 * [Glossário](glossario.md)
 * [Bibliografia](bibliografia.md)
