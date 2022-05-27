@@ -48,10 +48,10 @@
       "all": ["twitter", "linkedin", "whatsapp", "facebook"]
     },
     "github": {
-      "url": "https://github.com/GeovanneAtanazio/ferramenta_aprendizado_institucional"
+      "url": "https://github.com/GeovanneAtanazio/Python-Arretado"
     },
     "tbfed-pagefooter": {
-      "copyright": "Copyright &copy 2022 Geovanne Atanazio",
+      "copyright": "Copyright &copy 2022 Geovanne Atanazio and Mayara Machado",
       "modify_label": "Arquivo revisado pela última vez em",
       "modify_format": "DD/MM/YYYY"
     }

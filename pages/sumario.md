@@ -1,10 +1,10 @@
 # Sumário
 
 * [Curso Python Arretado](apresentacao.md)
-* [Introdução](introducao.md)
+* [O que é Python](introducao.md)
 * [Montagem de ambiente](montagem_de_ambiente.md)
 * [Primeiro algoritmo](primeiro_algoritmo.md)
-* [Tipos e Variaveis]()
+* [Variaveis e seus tipos](tipos_de_variaveis.md)
 * [Estruturas de Dados Básicas]()
 * [Condicionais e Loops]()
 * [Funções]()
