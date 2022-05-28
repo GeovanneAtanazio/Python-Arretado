@@ -17,7 +17,7 @@
     "-lunr", 
     "github", 
     "sharing-plus", 
-    "download-pdf-link", 
+    "-download-pdf-link", 
     "-search", 
     "search-pro", 
     "fontsettings", 
