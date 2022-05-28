@@ -15,3 +15,21 @@ Muitas pessoas costumam pensar que o nome Python tem origem em um tipo de cobra,
 ### Ruptura entre versões
 
 Em dezembro de 2008 foi lançado a versão 3.0 do Python, mais conhecida como Python3. Nela, houve uma quebra de compatibilidade com o Python2 — família de versões anterior da linguagem. Essa ruptura foi feita para corrigir falhas que foram descobertas e reestruturar a linguagem.
+
+# Aplicação da Linguagem
+
+Pela sua versatilidade, boa curva de aprendizado e vastidão na variedade de bibliotecas, que turbinam a linguagem tornando-a pronta para resolver os mais diversos problemas, que o Python é uma das linguagens mais utilizadas no mercado. Crescendo cada vez mais e com uma grande comunidade, a linguagem Python é uma escolha muito utilizada no mercado os mais diversos projetos.
+
+## Desenvolvimento Web
+
+Python oferece diversas opções de ferramentas para poder desenvolver dos mais simples aos mais robustos projetos que serão executados na web. Nas aplicações da internet nós temos a segmentação entre Frontend e Backend onde as aplicações Python podem ser utilizados como tecnologia na estrutura presente no Backend de uma aplicaç. Responsáveis pelo processamento da ação executada na internet, as aplicações que utilizam Python possui disponível diversas bibliotecas que apresentam suporte para os protocolos de internet e outras funcionalidades mais específicas de programação. Empresas como a Globo, Google, Amazon, Mercado Livre utilizam Python em suas stacks.
+
+## Computação Científica
+
+Contando com bibliotecas bem robustas e mantidas por uma grande comunidade ativa, Python conta com bibliotecas diversas para realizar cálculos matemáticos que podem ser utilizados por cientistas, pesquisadores e etc. Alguns dos pacotes mais conhecidos são o SciPy e Numpy, que contém implementação de diversos pacotes para realizar cálculos matemáticos e plotagem de gráficos, assim como o MatPlotlib. Também possui bibliotecas que possibilitam programassão paralela e visualização de dados.
+
+## Inteligência Artificial e Aprendizado de Máquina
+
+Python hoje é uma das linguagens mais utilizadas para implementação e processamento de algoritmos de inteligência artificial e aprendizado de máquina. Ele é hoje uma linguagem que possui diversas bibliotecas com uma boa maturidade de desenvolvimento, contendo um amplo acervo de modelos matemáticos e de inteligência artificial que tornam o desenvolvimento de modelos de aprendizado de máquinas mais seguros e estáveis. Algumas das bibliotecas mais famosas são a Scikit-Learn, SciPy, TensorFlow e Keras.
+
+Outra aplicação da linguagem é a sua integração com ferramentas open source para processamento de Big Data. Libs como PySpark e Faust.

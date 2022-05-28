@@ -24,6 +24,15 @@ Esta seção apresenta o conjunto das fontes efetivamente utilizadas na constru�
 
 - Python: como surgiu a linguagem e o seu cenário atual. **Vulpi**. Disponível em: <https://blog.vulpi.com.br/python-como-surgiu/#:~:text=Python%20foi%20criado%20no%20final,com%20o%20sistema%20operacional%20Amoeba.>. Acesso em: 27 de mar. 2022.
 
+
+### Aplicação da Linguagem
+
+- Qual é a linguagem de programação mais usada no mundo atualmente?. **CanalTech**. Disponível em: <https://canaltech.com.br/mercado/qual-e-a-linguagem-de-programacao-mais-usada-no-mundo-atualmente-200857/>. Acesso em: 25 de mar. 2022.
+
+- Introdução ao Aprendizado de Máquina. **IBM**. Disponível em: <https://www.ibm.com/br-pt/analytics/machine-learning>. Acesso em: 25 de mar. 2022.
+
+- O que é Big Data?. **Oracle**. Disponível em <https://www.oracle.com/br/big-data/what-is-big-data/>. Acesso em: 27 de mar. 2022.
+
 ## Montagem de ambiente
 
 - Curso Python #03 - Instalando o Python3 e o IDLE. **Curso em Vídeo**. Disponível em: <https://youtu.be/VuKvR1J2LQE>. Acesso em: 19 de mai. 2022.
