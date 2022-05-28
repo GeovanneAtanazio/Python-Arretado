@@ -3,7 +3,7 @@
 Estruturas de dados resolvem um tipo de problema e podem ser úteis em diversas situações, no Python nós iremos ter algumas implementações delas. As principais estruturas são as Listas, Tuplas, Sets e Dicionários e nesta seção veremos as principais características de cada uma.
 
 ## Listas
-No Python, uma lista é um tipo de dado que armazena uma sequência de diferentes tipos de dados, seus valores são definidos separados por vírgula, **(,)**, e podem ser mutáveis, ou sejam, uma vez definidas seus valores podem ser alterados. Seus valores são acessados através de um index que é representado por um  valor inteiro iniciando de 0.
+No Python, uma lista é um tipo de dado que armazena uma sequência de diferentes tipos de dados, seus valores são definidos separados por vírgula, **(,)**, e podem ser mutáveis, ou sejam, uma vez definidas seus valores podem ser alterados. Seus valores são acessados através de um índice que é representado por um  valor inteiro iniciando de 0.
 
 ```python
 lista1 = [1,2,3,4,5]
@@ -16,7 +16,7 @@ Podemos construir listas a partir de strings, tuplas, sets e dicionários a part
 
 ```python
 string = "python"
-print(list(good_string))
+print(list(string))
 
 ## output: ['p','y','t','h','o','n']
 
@@ -26,29 +26,54 @@ print(list(good_string))
 Listas apresentam uma vasta quantidade de métodos, dentre ela destaco:
 
 - append(): adiciona novos valores ao final da lista
+
+```python
+>>> frutas = ['laranja', 'maçã', 'pera', 'banana', 'kiwi', 'maçã', 'banana']
+
+>>> frutas.append('uva')
+>>> frutas
+['banana', 'maçã', 'kiwi', 'banana', 'pera', 'maçã', 'laranja', 'uva']
+```
 - extend(): extende os valores de uma lista adicionando todos os valores de outro objeto iterável, por exemplo, lista A pode ser extendida com os valores uma lista B.
+
+```python
+>>> frutas = ['laranja', 'maçã', 'pera', 'banana', 'kiwi', 'maçã', 'banana']
+
+>>> frutas.extend(["abacaxi", "melão"])
+['maçã', 'maçã', 'banana', 'banana', 'uva', 'kiwi', 'laranja', 'pera', 'abacaxi', "melão"]
+
+```
+
 - count(): conta a quantidade de ocorrências de um dado item na lista.
+```python
+>>> frutas = ['laranja', 'maçã', 'pera', 'banana', 'kiwi', 'maçã', 'banana']
+
+>>> frutas.count('maçã')
+2
+>>> frutas.count('tangerine')
+0
+
+```
+
 - sort(): ordena a lista de forma crescente.
+
+```python
+>>> frutas = ['laranja', 'maçã', 'pera', 'banana', 'kiwi', 'maçã', 'banana']
+
+>>> frutas.sort()
+>>> frutas
+['maçã', 'maçã', 'banana', 'banana', 'uva', 'kiwi', 'laranja', 'pera']
+
+```
+
 - reverse(): reverte as posições dos valores na lista, o primeiro valor se tornará o último e o último se tornará o primeiro.
 
 ```python
->>> fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
->>> fruits.count('apple')
-2
->>> fruits.count('tangerine')
-0
->>> fruits.reverse()
->>> fruits
-['banana', 'apple', 'kiwi', 'banana', 'pear', 'apple', 'orange']
->>> fruits.append('grape')
->>> fruits
-['banana', 'apple', 'kiwi', 'banana', 'pear', 'apple', 'orange', 'grape']
->>> fruits.sort()
->>> fruits
-['apple', 'apple', 'banana', 'banana', 'grape', 'kiwi', 'orange', 'pear']
->>> fruits.extend(["pineapple"])
-['apple', 'apple', 'banana', 'banana', 'grape', 'kiwi', 'orange', 'pear', 'pineapple']
+>>> frutas = ['laranja', 'maçã', 'pera', 'banana', 'kiwi', 'maçã', 'banana']
 
+>>> frutas.reverse()
+>>> frutas
+['banana', 'maçã', 'kiwi', 'banana', 'pera', 'maçã', 'laranja']
 ```
 
 Existem outros métodos mais que são bastante interessantes, como atividade complementar recomendo essa [leitura](https://docs.python.org/3/tutorial/datastructures.html).
@@ -58,19 +83,19 @@ Existem outros métodos mais que são bastante interessantes, como atividade com
 As tuplas são estrutura de dados muito similar às Listas, são tipos de dados que armazenam múltiplos tipos de dados, separados por uma vírgula. Sua principal diferença é que tuplas representam objetos ordenados e imutáveis, ou seja, uma vez definidos seus valores não podem ser alterados.
 
 ```python
-fruits = ('apple', 'mango', 'banana')
-print(fruits)
-# output: ('apple', 'mango', 'banana')
+frutas = ('maçã', 'manga', 'banana')
+print(frutas)
+# output: ('maçã', 'manga', 'banana')
 
-# or
+# ou
 
-fruits_2 = 'apple', 'mango', 'banana'
-print(fruits_2)
-# output: ('apple', 'mango', 'banana')
+frutas_2 = 'maçã', 'manga', 'banana'
+print(frutas_2)
+# output: ('maçã', 'manga', 'banana')
 
-fruits_3 = ('pineapple',)
-print(fruits_3)
-# output: ('pineapple',)
+frutas_3 = ('abacaxi',)
+print(frutas_3)
+# output: ('abacaxi',)
 ```
 
 As tuplas podem ser definidas com ou sem parentêsis. Para definir tuplas com valores únicos nós utilizando uma virgula após o valor da tupla, importante ressaltar que se não definirmos com a virgula após um valor única de uma tupla, o Python não irá considerar a variável como uma tupla.
@@ -89,13 +114,13 @@ print(type(nao_eh_tupla)) # OUTPUT: <class ‘tuple’>
 Por ser um tipo de dados imutável, não temos muitos métodos que interagem com a tupla como é o caso das listas, porém podemos acessar as tuplas através de `index` e calcular o tamanho da tupla com o método `len()`.
 
 ```python
-fruits = ('apple', 'mango', 'banana')
+frutas = ('apple', 'manga', 'banana')
 
-print(len(fruits))
+print(len(frutas))
 # output: 3
 
-print(fruits[1])
-# output: "mango"
+print(frutas[1])
+# output: "manga"
 ```
 
 ## Sets
@@ -145,7 +170,7 @@ print(conjunto)
 # output = {0, 2, 4, 6, 8, 10, 12}
 ```
 
-Para remover valores de um Set existem algumas possibilidades diferentes que podem ser utilizadas de acordo com o cenário que você tenha no seu programa, vamos de exemplos:
+Para remover valores de um Set existem algumas possibilidades diferentes que podem ser utilizadas de acordo com o cenário que você tenha no seu algoritmo, vamos de exemplos:
 
 ```python
 conjunto = {0, 2, 4, 6}
@@ -182,8 +207,8 @@ empty_dict = {}
 print(empty_dict)
 # output = {}
 
-fruits = {1 :'apple', 2 :'banana', 3 :'cherry'}
-print(fruits)
+frutas = {1 :'apple', 2 :'banana', 3 :'cherry'}
+print(frutas)
 # output = {1 :'apple', 2 :'banana', 3 :'cherry'}
 
 mixed_dics = {1:'red','name':'Jose'}
