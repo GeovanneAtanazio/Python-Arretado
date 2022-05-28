@@ -14,3 +14,4 @@ Esta seção apresenta um glossário com as palavras-chaves presentes neste mate
 |Interpretador | Faz a conversão, em tempo real, do código escrito pelo programador para linguagem de máquina, formato compreendido pelo computador que está executando o algoritmo.|
 |Aprendizado de Máquina| É uma tecnologia onde os computadores tem a capacidade de aprender de acordo com as respostas esperadas por meio associações de diferentes dados, os quais podem ser imagens, números e tudo que essa tecnologia possa identificar.
 |Big Data | É um conjunto de dados maior e mais complexo, esses conjuntos de dados são tão volumosos que o software tradicional de processamento de dados simplesmente não consegue gerenciá-los. |
+|Case-sensitive | Faz distinção de palavras escritas em maiúsculas e minúsculas. |
