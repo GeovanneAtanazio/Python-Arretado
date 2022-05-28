@@ -1,6 +1,6 @@
 # Estrutura de Dados Básicas
 
-Estruturas de dados resolvem um tipo de problema e podem ser úteis em diversas situações, no Python nós iremos ter algumas implementações delas. As principais estruturas são as Listas, Tuplas, Sets e Dicionários e nesta seção veremos as principais características de cada uma.
+Estrutura de dados fazem o agrupamento de dados e são uteis para resolver problemas em diversas situações, no Python nós iremos ter algumas implementações delas. As principais estruturas são as Listas, Tuplas, Sets e Dicionários e nesta seção veremos as principais características de cada uma.
 
 ## Listas
 No Python, uma lista é um tipo de dado que armazena uma sequência de diferentes tipos de dados, seus valores são definidos separados por vírgula, **(,)**, e podem ser mutáveis, ou sejam, uma vez definidas seus valores podem ser alterados. Seus valores são acessados através de um índice que é representado por um  valor inteiro iniciando de 0.
@@ -101,20 +101,20 @@ print(frutas_3)
 As tuplas podem ser definidas com ou sem parentêsis. Para definir tuplas com valores únicos nós utilizando uma virgula após o valor da tupla, importante ressaltar que se não definirmos com a virgula após um valor única de uma tupla, o Python não irá considerar a variável como uma tupla.
 
 ```python
-eh_tupla = ('apple')
+eh_tupla = ('maçã')
 print(type(eh_tupla)) # OUTPUT: <class ‘str’>
 
-eh_tupla_2 = 'apple',
+eh_tupla_2 = 'maçã',
 print(type(eh_tupla_2)) # OUTPUT: <class ‘tuple’>
 
-nao_eh_tupla = ('apple',)
+nao_eh_tupla = ('maçã',)
 print(type(nao_eh_tupla)) # OUTPUT: <class ‘tuple’>
 ```
 
 Por ser um tipo de dados imutável, não temos muitos métodos que interagem com a tupla como é o caso das listas, porém podemos acessar as tuplas através de `index` e calcular o tamanho da tupla com o método `len()`.
 
 ```python
-frutas = ('apple', 'manga', 'banana')
+frutas = ('maçã', 'manga', 'banana')
 
 print(len(frutas))
 # output: 3
@@ -152,7 +152,7 @@ print(conjunto_4)
 # output = {1, 2, 3}
 ```
 
-Como podemos ver, existem duas formas de se definir Sets, eles podem ser definidos com o uso de chaves e virgulas ou passando um iteravel (lista, tupla, dicionario) para o método `set()`. Outra coisa também que podemos observar é que mesmo que passemos valores duplicado no momento de criação de um Set, este não ficará com o valor pois apenas aceita valores não duplicados.
+Como podemos ver, existem duas formas de se definir Sets, eles podem ser definidos com o uso de chaves ({}) e virgulas (,) ou passando um iteravel (lista, tupla, dicionario) para o método `set()`. Outra coisa também que podemos observar é que mesmo que passemos valores duplicado no momento de criação de um Set, este não ficará com o valor pois apenas aceita valores não duplicados.
 
 Para adicionar novos valores a um Set já definido podemos fazer da seguinte forma:
 
@@ -199,71 +199,71 @@ Você pode pensar nesse tipo de dado como exatamente um dicionário onde teremos
 Vamos de exemplos sobre como criar o seu dicionário em Python:
 
 ```python
-dict_example = {'nome':'Maria', "idade":22}
-print(dict_example)
+dict_exemplo = {'nome':'Maria', "idade":22}
+print(dict_exemplo)
 # output = {'nome':'Maria', "idade":22}
 
 empty_dict = {}
 print(empty_dict)
 # output = {}
 
-frutas = {1 :'apple', 2 :'banana', 3 :'cherry'}
+frutas = {1 :'maçã', 2 :'banana', 3 :'cereja'}
 print(frutas)
-# output = {1 :'apple', 2 :'banana', 3 :'cherry'}
+# output = {1 :'maçã', 2 :'banana', 3 :'cereja'}
 
-mixed_dics = {1:'red','name':'Jose'}
-print(mixed_dics)
-# output = {1:'red','name':'Jose'}
+dicionarios_misto = {1:'vermleho','nome':'Jose'}
+print(dicionarios_misto)
+# output = {1:'vermleho','nome':'Jose'}
 ```
 
 Para acessar valores de dicionários nós utilizamos das suas chaves.
 
 ```python
-dict_example = {'nome':'Maria', "idade":22}
+dict_exemplo = {'nome':'Maria', "idade":22}
 
-print(dict_example["nome"]) # lança excessão se essa chave não existir
+print(dict_exemplo["nome"]) # lança excessão se essa chave não existir
 #  output = Maria
 
-print(dict_example.get("nome")) # retorna None ou valor default caso não encontre a chave.
+print(dict_exemplo.get("nome")) # retorna None ou valor default caso não encontre a chave.
 #  output = Maria
 
-print(dict_example.get("inexistente")) # j
+print(dict_exemplo.get("inexistente")) # j
 #  output = None
 
-print(dict_example.get("inexistente", "Não tem valor")) # j
+print(dict_exemplo.get("inexistente", "Não tem valor")) # j
 #  output = Não tem valor
 ```
 
 Para atualizar um dicionário ou para adicionar novos valores nós podemos fazer a partir das chaves
 
 ```python
-dict_example = {}
-print(dict_example)
+dict_exemplo = {}
+print(dict_exemplo)
 # output = {}
 
-dict_example["nome"] = "Maria"
-print(dict_example)
+dict_exemplo["nome"] = "Maria"
+print(dict_exemplo)
 # output = {"nome" : "Maria"}
 
-dict_example["idade"] = 22
-print(dict_example)
+dict_exemplo["idade"] = 22
+print(dict_exemplo)
 # output = {'nome':'Maria', "idade":22}
 
-dict_example["nome"] = "Jose"
-print(dict_example)
+dict_exemplo["nome"] = "Jose"
+print(dict_exemplo)
 # output = {'nome':'Jose', "idade":22}
 
-dict_example["idade"] = "25"
-print(dict_example)
+dict_exemplo["idade"] = "25"
+print(dict_exemplo)
 # output = {'nome':'Jose', "idade":"25"}
 ```
 
 E para deletar uma chave de um dicionário nós utilizamos a cláusula  `del`.
 
 ```python
-my_dict={1: 'James', 2: 'Apple', 3: 'Jake', 4: 'Banana,Cherry,Kiwi'}
-del my_dict[4]
-print(my_dict)
+meu_dicionario={1: 'Jose', 2: 'Maçã', 3: 'Maria', 4: 'Banana,Cereja,Kiwi'}
+del meu_dicionario[4]
+print(meu_dicionario)
 
-# output = {1:'James', 2: 'Apple', 3: 'Jake'}
+# output = {1:'Jose', 2: 'Maçã', 3: 'Maria'}
 ```
