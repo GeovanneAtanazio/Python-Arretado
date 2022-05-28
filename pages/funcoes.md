@@ -1,6 +1,6 @@
 # Funções
 
-Funções são blocos de códigos que executam um processamento em específico e retornam valores. São uma ótima forma de evitar duplicação de código e promover a reutilização de processamento em múltiplos lugares dos seus programas.
+Funções são blocos de códigos que executam um processamento em específico e retornam valores. São uma ótima forma de evitar duplicação de código e promover a reutilização de processamento em múltiplos lugares dos seus algoritmos.
 
 As funções vão tornar o seu código mais legível, fácil de programar, de testar e manter. Um exemplo de uma função que já aprendemos e utilizamos bastante ao longo desse tutorial é a `print()`. No Python nós vamos ter funçÕes chamadas de *built-in*, que significam função que são definidas pela própria linguagem e por isso são disponibilizadas por padrão em qualquer lugar que você execute um código em Python. Você também vai poder definir suas próprias funções, o que chamaremos de funções *user-defined*.
 

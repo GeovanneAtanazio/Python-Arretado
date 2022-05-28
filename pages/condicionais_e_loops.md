@@ -1,8 +1,8 @@
 # Controle de fluxos: Condicionais e Loops
 
-Podemos dizer que todo programa Python consistirá em um conjunto de definições de operações que devem ser executadas pelo programa. Por exemplo, podemos ter um programa cujo o intuito é de realizar a soma de dois valores, desse modo nosso programa estará definindo uma operação de adição do número A e do número B. Um programa pode ser composto pode diversos tipos de definição de operações, com número, palavras e etc. Mas da forma como estamos fazendo até o momento não nos permite controlar ou definir nenhum fluxo para a execução das nossas operações.
+Podemos dizer que todo algoritmo Python consistirá em um conjunto de definições de operações que devem ser executadas pelo algoritmo. Por exemplo, podemos ter um algoritmo cujo o intuito é de realizar a soma de dois valores, desse modo nosso algoritmo estará definindo uma operação de adição do número A e do número B. Um algoritmo pode ser composto pode diversos tipos de definição de operações, com número, palavras e etc. Mas da forma como estamos fazendo até o momento não nos permite controlar ou definir nenhum fluxo para a execução das nossas operações.
 
-Vamos imaginar com um exemplo da vida real, quando encontramos com um amigo e vamos cumprimentá-lo nós falamos *Bom dia!* se estiver de dia, *Boa tarde!* se estiver de tarde e *Boa noite!* se estiver a noite. Ou seja, definimos qual a operação estamos realizando com base em uma condição externa a nossa operação, no caso do nosso exemplo definimos com base no horário do dia. Algo similar acontece com nossos programas, podemos construir diferentes fluxos com base em condições definidas no nosso código. Vamos entender mais sobre como podemos definir o controle de fluxos com Python.
+Vamos imaginar com um exemplo da vida real, quando encontramos com um amigo e vamos cumprimentá-lo nós falamos *Bom dia!* se estiver de dia, *Boa tarde!* se estiver de tarde e *Boa noite!* se estiver a noite. Ou seja, definimos qual a operação estamos realizando com base em uma condição externa a nossa operação, no caso do nosso exemplo definimos com base no horário do dia. Algo similar acontece com nossos algoritmos, podemos construir diferentes fluxos com base em condições definidas no nosso código. Vamos entender mais sobre como podemos definir o controle de fluxos com Python.
 
 
 ## Condicionais
@@ -50,14 +50,14 @@ if turno == "noite":
 
 ```
 
-Temos no exemplo 3 definições de operação que verificam **SE** a variável `turno` tem um dos valores comparados. O programa então irá executar a primeira verificação da condicional e identificar se a variável possui o valor `"manhã"` e essa verificação irá retornar o valor `False` pois a variável `turno` não possui o valor `"manhã"` e por isso não irá executar o trecho de código `print("Bom dia!")`. A seguir o programa irá verificar se a variável `turno` é igual ao valor `"tarde"` e essa operação irá retornar True, com isso o programa irá entrar nesse novo fluxo marcado pela condicional e imprimir na console o resultado da operação `print("Boa Tarde!")`. Por fim, o programa irá verificar se a variável `turno` é igual ao valor `"noite"` e essa verificação irá retornar False, encerrando o programa.
+Temos no exemplo 3 definições de operação que verificam **SE** a variável `turno` tem um dos valores comparados. O algoritmo então irá executar a primeira verificação da condicional e identificar se a variável possui o valor `"manhã"` e essa verificação irá retornar o valor `False` pois a variável `turno` não possui o valor `"manhã"` e por isso não irá executar o trecho de código `print("Bom dia!")`. A seguir o algoritmo irá verificar se a variável `turno` é igual ao valor `"tarde"` e essa operação irá retornar True, com isso o algoritmo irá entrar nesse novo fluxo marcado pela condicional e imprimir na console o resultado da operação `print("Boa Tarde!")`. Por fim, o algoritmo irá verificar se a variável `turno` é igual ao valor `"noite"` e essa verificação irá retornar False, encerrando o algoritmo.
 
-Então como podemos observar, o programa executa todas as verificações de condicional e executa somente aqueles que se enquadram no que a expressão de condicional está informando. Enquanto isso pode ser útil em alguns casos, no caso do nosso exemplo não é, pois se identificamos que o turno já equivale a tarde não faz sentido verificar se o turno também é noite. Por isso podemos ter outras estruturas de condicional.
+Então como podemos observar, o algoritmo executa todas as verificações de condicional e executa somente aqueles que se enquadram no que a expressão de condicional está informando. Enquanto isso pode ser útil em alguns casos, no caso do nosso exemplo não é, pois se identificamos que o turno já equivale a tarde não faz sentido verificar se o turno também é noite. Por isso podemos ter outras estruturas de condicional.
 
 
 ### If Else
 
-Podemos reformular nosso exemplo para dizer `Boa tarde!` toda vez que for tarde e quando for outro turno o programa deverá dizer outro tipo de cumprimento. Na estrutura If Else nós teremos a relação Se- Senão, onde se a condição não for satisfeita a segunda ação sempre será executada, mas se a condição for verdadeira essa ação será a única a ser executada.
+Podemos reformular nosso exemplo para dizer `Boa tarde!` toda vez que for tarde e quando for outro turno o algoritmo deverá dizer outro tipo de cumprimento. Na estrutura If Else nós teremos a relação Se- Senão, onde se a condição não for satisfeita a segunda ação sempre será executada, mas se a condição for verdadeira essa ação será a única a ser executada.
 
 ```python
 
@@ -69,7 +69,7 @@ else:
     print("Olá!")
 ```
 
-Dessa forma, o programa irá verificar se o turno é igual a `tarde` e se não for ele irá executar o `Olá!`. Mas podemos ver que esse código não está completo com o cenário que tínhamos previamente, então podemos reformular ele de uma forma diferente utilizando a estrutura If-Else.
+Dessa forma, o algoritmo irá verificar se o turno é igual a `tarde` e se não for ele irá executar o `Olá!`. Mas podemos ver que esse código não está completo com o cenário que tínhamos previamente, então podemos reformular ele de uma forma diferente utilizando a estrutura If-Else.
 
 
 ```python
@@ -89,13 +89,13 @@ else:
 Nesse novo formato nós teremos uma estrutura condicional mais aninhada, onde o else somente será executado se a condicional do primeiro if `turno == "manhã"` for falsa, e dentro do else nós temos outro if-else. No nosso exemplo teremos a seguinte sequência de passos:
 
 1. Verifica se o turno é igual a manhã e retorna falso, entrando na ação definida no else.
-2. Dentro do else ele cai em uma nova condicional, onde a verificação de se turno é igual a tarde  o que retorna verdadeiro. Nesse ponto o programa irá imprimir no console `Boa Tarde!` e encerrar, como a condição do SE foi completada não é necessário executar a ação do SENÃO.
+2. Dentro do else ele cai em uma nova condicional, onde a verificação de se turno é igual a tarde  o que retorna verdadeiro. Nesse ponto o algoritmo irá imprimir no console `Boa Tarde!` e encerrar, como a condição do SE foi completada não é necessário executar a ação do SENÃO.
 
-Ainda que agora nosso código funcione um pouco melhor, encerrando o programa quando a condição é verdadeiramente satisfeita, essa ainda não é a estrutura que melhor representa o nosso programa. Vamos seguir para o próximo exemplo.
+Ainda que agora nosso código funcione um pouco melhor, encerrando o algoritmo quando a condição é verdadeiramente satisfeita, essa ainda não é a estrutura que melhor representa o nosso algoritmo. Vamos seguir para o próximo exemplo.
 
 ### If Elif Else
 
-Como podemos ter um cenário onde apenas queremos executar um tipo de cumprimento e ele é de acordo com o valor atribuído para variável `turno`, podemos reformular o programa para verificar três condicionais. Dessa forma, seria mais eficiente identificar se é manhã, tarde ou noite para saber qual o valor deve ser impresso no console. E supondo que o valor de turno seja por exemplo `"madrugada"`, um turno não mapeado no nosso fluxo, podemos retornar o valor padrão de "Olá!".
+Como podemos ter um cenário onde apenas queremos executar um tipo de cumprimento e ele é de acordo com o valor atribuído para variável `turno`, podemos reformular o algoritmo para verificar três condicionais. Dessa forma, seria mais eficiente identificar se é manhã, tarde ou noite para saber qual o valor deve ser impresso no console. E supondo que o valor de turno seja por exemplo `"madrugada"`, um turno não mapeado no nosso fluxo, podemos retornar o valor padrão de "Olá!".
 
 ```python
 
@@ -115,7 +115,7 @@ else:
 
 ```
 
-Com essa modificação podemos aproveitar o melhor do que o controle de fluxos do Python nos oferece, podemos misturar expressões e combinar a estrutura If Elif e Else para definir melhor o fluxo que o nosso programa deve seguir.
+Com essa modificação podemos aproveitar o melhor do que o controle de fluxos do Python nos oferece, podemos misturar expressões e combinar a estrutura If Elif e Else para definir melhor o fluxo que o nosso algoritmo deve seguir.
 
 
 ## Loops
@@ -223,7 +223,7 @@ while not eh_madrugada:
 # Olá!
 ```
 
-Nesse exemplo nós vamos executar a impressão de "Olá!" no console até que a variável eh_madrugada passe a ser verdadeira. Nesse exemplo vemos algumas coisas novas também, como por exemplo o uso de condicionais juntos com o While Loop, o acesso a valores de uma lista e uma nova forma de fazer soma com a mesma variável. Mas essa ainda não é a melhor forma de resolver esse problema, pois e se nunca tiver um encontro na madrugada teremos esse loop executando eternamente? Logo mais esse programa irá lançar um erro no console, vejamos no próximo tópico como podemos melhora-lo
+Nesse exemplo nós vamos executar a impressão de "Olá!" no console até que a variável eh_madrugada passe a ser verdadeira. Nesse exemplo vemos algumas coisas novas também, como por exemplo o uso de condicionais juntos com o While Loop, o acesso a valores de uma lista e uma nova forma de fazer soma com a mesma variável. Mas essa ainda não é a melhor forma de resolver esse problema, pois e se nunca tiver um encontro na madrugada teremos esse loop executando eternamente? Logo mais esse algoritmo irá lançar um erro no console, vejamos no próximo tópico como podemos melhora-lo
 
 ## Break, Pass e Continue
 
@@ -249,7 +249,7 @@ while contador < len(turnos_encontro):
 
 ```
 
-Reescrevendo o nosso programa para fazer um loop com o número de iterações iguais a quantidade de valores definidos na lista `turnos_encontro`. Observe que removemos a variável booleana `eh_madrugada` e substituímos a ação da condicional com uma cláusula **Break** que irá terminar a execução do loop quando a condição for satisfeita. Outra forma de corrigir esse códgo foi de limitar o número de execução, uma vez que os valores da nossa lista de encontros não é infinita.
+Reescrevendo o nosso algoritmo para fazer um loop com o número de iterações iguais a quantidade de valores definidos na lista `turnos_encontro`. Observe que removemos a variável booleana `eh_madrugada` e substituímos a ação da condicional com uma cláusula **Break** que irá terminar a execução do loop quando a condição for satisfeita. Outra forma de corrigir esse códgo foi de limitar o número de execução, uma vez que os valores da nossa lista de encontros não é infinita.
 
 ## Continue
 
@@ -288,4 +288,4 @@ for item in range(0, 10, 2):
 # 6
 ```
 
-Nesse exemplo nós utilizamos um for loop para iterar entre os múltiplos de 2 dentro do intervalo 0 e 10 e mandamos o programa imprimir somente aqueles que também são divisiveis por 3. Para todos os outros números simplesmente passamos, nenhuma ação era necessária, e é assim que utilizamos o Pass.
+Nesse exemplo nós utilizamos um for loop para iterar entre os múltiplos de 2 dentro do intervalo 0 e 10 e mandamos o algoritmo imprimir somente aqueles que também são divisiveis por 3. Para todos os outros números simplesmente passamos, nenhuma ação era necessária, e é assim que utilizamos o Pass.

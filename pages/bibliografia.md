@@ -113,3 +113,17 @@ Esta seção apresenta o conjunto das fontes efetivamente utilizadas na constru�
 
 - Tipos de variáveis disponíveis no Python. **Python Academy**. Disponível em: <https://pythonacademy.com.br/blog/tipos-de-variaveis-no-python>. Acesso em: 24 de mai. 2022.
 - Tipos de dados em Python: Numéricos. **DevMedia**. Disponível em: <https://www.devmedia.com.br/tipos-de-dados-em-python-numericos/40652>. Acesso em: 24 de mai. 2022.
+
+### Estrutura de dados Básica
+
+- Data Structures. **Python.org**. Disponível em: <https://docs.python.org/3/tutorial/datastructures.html>. Acesso em 25 de mar. 2022.
+
+### Condicionais e Loops
+
+- More Control Flow Tools. **Python.org**. Disponível em: <https://docs.python.org/3/tutorial/controlflow.html>. Acesso em 25 de mar. 2022.
+
+- Control Flow Statements. **OReilly**. Disponível em: <https://www.oreilly.com/library/view/python-in-a/0596001886/ch04s09.html>. Acesso em 25 de mar. 2022.
+
+### Funções
+
+- Defining Your Own Python Function. **Real Python**. Disponível em: <https://realpython.com/defining-your-own-python-function/>. Acesso em 25 de mar. 2022.
